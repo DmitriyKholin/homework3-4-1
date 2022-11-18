@@ -13,6 +13,7 @@ import java.util.Optional;
 public class FacultyController {
     private final FacultyService facultyService;
 
+
     public FacultyController(FacultyService facultyService) {
         this.facultyService = facultyService;
     }
